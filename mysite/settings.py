@@ -25,7 +25,7 @@ SECRET_KEY = 'l(l@i!qdo&7x4+&_#5bi%8on_riipsxcqihsi4$9rjibu39ez3'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', 'cipher813.pythonanywhere.com']
+ALLOWED_HOSTS = ['127.0.0.1', 'cipher813.pythonanywhere.com', 'cipherlab.co']
 
 
 # Application definition
@@ -77,7 +77,7 @@ WSGI_APPLICATION = 'mysite.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),    
+        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
         # 'ENGINE': 'django.db.backends.postgresql',
         # 'NAME': 'djangogirls',
         # 'USER': 'cipher813',
